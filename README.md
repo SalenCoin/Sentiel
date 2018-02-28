@@ -23,7 +23,7 @@ Update system packages and ensure virtualenv is installed:
     $ sudo apt-get update
     $ sudo apt-get -y install python-virtualenv
 
-Make sure the local Salen daemon running is at least version 12.1 (120100)
+Make sure the local Salen daemon running is at least version 1.0 (100000)
 
     $ salen-cli getinfo | grep version
 
@@ -127,7 +127,7 @@ Please follow the [SalenCore guidelines for contributing](https://github.com/sal
 
 Specifically:
 
-* [Contributor Workflow](https://github.com/salenpay/salen/blob/v0.12.1.x/CONTRIBUTING.md#contributor-workflow)
+* [Contributor Workflow](https://github.com/salenpay/salen/blob/v1.0.0/CONTRIBUTING.md#contributor-workflow)
 
     To contribute a patch, the workflow is as follows:
 
