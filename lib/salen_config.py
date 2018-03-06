@@ -34,7 +34,7 @@ class SalenConfig():
         creds = {key: value.strip() for (key, value) in match}
 
         # standard Salen defaults...
-        default_port = 9998 if (network == 'mainnet') else 19998
+        default_port = 9102 if (network == 'mainnet') else 19998
 
         # use default port for network if not specified in salen.conf
         if not ('port' in creds):
